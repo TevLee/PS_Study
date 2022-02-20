@@ -12,6 +12,7 @@ String[] strArr = str.split("");   // String to Array : 문자열을 배열로 �
 
 String str = Arrays.toString(arr); //  (arr > str) : 배열을 문자열로 변환
 String str = String.join("-",arr); //  (arr > str) : 배열을 문자열로 변환("-"를 넣어서...)
+String str = String.valueOf(ch[]); //  (ch[] > str) : char형 배열을 
 ```
 > String <-> Number
 ```
