@@ -18,6 +18,12 @@ String str = String.valueOf(ch[]); //  (ch[] > str) : char형 배열을
 ```
 Integer.parseInt("1004"); // ("1004" > 1004) : 문자열을 int로 변환
 Integer.valueOf(str 또는 int); // 문자열(또는 int)를 Integer객체로 변환
+// int num = Integer.valueOf(str) : 자동 unboxing해주는 
 
-String str = Integer.toString(int) // (int > str) : int를 문자열로 변환
+String str = Integer.toString(10) // (int > str) : int를 문자열로 변환
+String str = String.valueOf(10) // (int > str) : int를 문자열로 변환 
+```
++ 기타
+```
+str.indexOf("가나다") // "가나다"의 index , 없으면 -1 return
 ```
